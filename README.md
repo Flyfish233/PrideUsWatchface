@@ -1,4 +1,4 @@
-# Project Delilah
+# Pride Us
 
 > 中文请见下方
 
@@ -68,7 +68,7 @@ All features here **Introduced in Wear OS 4, which is not available on Wear OS 3
 
 ## 中文
 
-# Project Delilah
+# Pride Us
 
 **Delilah** 是一个基于 **Watch Face Format** (WFF) 的 Wear OS 4 手表表盘模板集合。
 
