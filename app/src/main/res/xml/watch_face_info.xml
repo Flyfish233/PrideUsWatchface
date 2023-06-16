@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WatchFaceInfo>
+    <!-- Only "Preview" is required. -->
+    <Preview value="@drawable/watch_face_preview" />
+
+    <MultipleInstancesAllowed value="true" />
+    <FlavorsSupported value="true" />
+    <Editable value="true" />
+</WatchFaceInfo>

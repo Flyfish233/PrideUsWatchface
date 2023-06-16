@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">骄傲同行表盘</string>
+    <string name="watch_face_name">骄傲同行</string>
+    <string name="show_second_hand">显示秒针</string>
+    <string name="transgender">XYN</string>
+    <string name="bisexual">双性恋</string>
+</resources>

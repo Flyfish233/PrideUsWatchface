@@ -1,0 +1,105 @@
+<!-- Before you start, please note how to DEBUG ALL SHITTY ERRORS w/o ANY RUNTIME WARNINGS:
+- Check the logcat for errors.
+- Set the `watchface` filter to see only logs related to watchface.
+- Found a problem? Google it. And you just found nothing useful 🤡🤡🤡
+-->
+
+<!-- Do not use any img up to 700 px and svg/xml drawables, or EVERYTHING will be messed up.
+Never say I never told you! -->
+<WatchFace
+    height="455"
+    shape="CIRCLE"
+    width="455">
+
+    <!-- You can simply replace the <Scene> tag with the following line,
+    to change the background color.
+    <Scene backgroundColor="#ff000000">
+    But we strongly recommend you not to define the background color in the scene.
+    -->
+    <Scene>
+
+        <!-- The x and y coordinates are offsets from the top left corner of the scene. -->
+        <AnalogClock
+            height="455"
+            width="455"
+            x="0"
+            y="0">
+            <HourHand
+                height="450"
+                resource="hour_hand"
+                tintColor="[CONFIGURATION.themeColor.0]"
+                width="450"
+                x="0"
+                y="0" />
+            <MinuteHand
+                height="450"
+                resource="minute_hand"
+                tintColor="[CONFIGURATION.themeColor.1]"
+                width="450"
+                x="0"
+                y="0" />
+            <BooleanConfiguration id="enableSecond">
+                <BooleanOption id="TRUE">
+                    <SecondHand
+                        alpha="100"
+                        height="450"
+                        resource="second_hand"
+                        tintColor="[CONFIGURATION.themeColor.2]"
+                        width="450"
+                        x="0"
+                        y="0">
+                        <!-- Second hand sweep mode,
+                        or "tick" mode by DEFAULT with EXTREMELY LOW FPS POWER SAVING -->
+
+                        <Sweep />
+
+                        <Variant
+                            mode="AMBIENT"
+                            target="alpha"
+                            value="0" />
+                    </SecondHand>
+                </BooleanOption>
+            </BooleanConfiguration>
+        </AnalogClock>
+
+
+    </Scene>
+
+    <UserConfigurations>
+
+        <BooleanConfiguration
+            defaultValue="TRUE"
+            displayName="show_second_hand"
+            id="enableSecond" />
+
+        <ColorConfiguration
+            defaultValue="0"
+            displayName="color_selector_display_name"
+            id="themeColor">
+            <!-- Colors are in the rgb or argb format with up to 100 sets -->
+
+            <ColorOption
+                colors="#5BCEFA #F5A9B8 #FFFFFF"
+                displayName="transgender"
+                id="0" />
+            <ColorOption
+                colors="#E50000 #FF8D00 #FFEE00"
+                id="1" />
+            <ColorOption
+                colors="#D60270 #9B4F96 #0038A8"
+                displayName="bisexual"
+                id="2" />
+            <ColorOption
+                colors="#FF1C8D #FFD700 #1AB3FF"
+                id="3" />
+            <ColorOption
+                colors="#D52D00 #FF9A56 #FFFFFF"
+                id="4" />
+            <ColorOption
+                colors="#A40062 #D462A6 #FFFFFF"
+                id="5" />
+        </ColorConfiguration>
+
+    </UserConfigurations>
+
+</WatchFace>

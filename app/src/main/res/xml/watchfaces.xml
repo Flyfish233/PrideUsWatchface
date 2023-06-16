@@ -1,0 +1,8 @@
+<WatchFaces>
+    <!-- The default shape is "CIRCLE". -->
+    <WatchFace
+        file="@raw/watchface"
+        height="455"
+        shape="CIRCLE"
+        width="455" />
+</WatchFaces>
