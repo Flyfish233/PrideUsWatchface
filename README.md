@@ -2,14 +2,11 @@
 
 > 中文请见下方
 
-**Delilah** is a set of watch face templates for Wear OS 4. It is based on
+**Project Delilah** is a set of watch face templates for Wear OS 4. It is based on
 **Watch Face Format**, WFF.
 
-This branch is an analog watch face called **Pride Us**, which is a simple analog watch face with
+This repo is an analog watch face called **Pride Us**, which is a simple analog watch face with
 Pride flag colors, for Pride Month and our all LGBTQ+ friends.
-
-For branch `main`, it is a simple digital watch face.
-
 ## Features
 
 [Available]
@@ -68,18 +65,16 @@ All features here **Introduced in Wear OS 4, which is not available on Wear OS 3
 
 ## 中文
 
-# Pride Us
+# 骄傲同行
 
-**Delilah** 是一个基于 **Watch Face Format** (WFF) 的 Wear OS 4 手表表盘模板集合。
+**Project Delilah** 是一些我基于 **Watch Face Format** (WFF) 做的 Wear OS 4 手表表盘模板集合。
 
-本分支是一个名为 **骄傲同行** 的模板表盘。它是一个简单的模拟表盘，使用彩虹旗的颜色，以迎接 Pride Month
+本表盘是一个名为 **骄傲同行** 的模板表盘。它是一个简单的模拟表盘，使用彩虹旗的颜色，以迎接 Pride Month
 和我们所有的 LGBTQ+ 朋友。
-
-对于 `main` 分支，它是一个简单的数字表盘。
 
 ## 特点
 
-[可用]
+[好了]
 
 - 模拟表盘
 - 彩虹旗的颜色，可编辑
@@ -87,7 +82,7 @@ All features here **Introduced in Wear OS 4, which is not available on Wear OS 3
 - 息屏提醒下关闭秒针
 - 本地化为 EN、ZH-CN - 颜色尚未完成
 
-[正在工作]
+[在做]
 
 - 表盘插槽
 - 暂不支持 TalkBack
