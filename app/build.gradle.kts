@@ -5,7 +5,7 @@ plugins {
 }
 android {
     namespace = "com.flyfish233.projectdelilah.pride"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.flyfish233.projectdelilah.pride"
@@ -27,8 +27,4 @@ android {
             isMinifyEnabled = true
         }
     }
-}
-
-dependencies {
-    implementation("androidx.core:core-ktx:1.10.1")
 }
