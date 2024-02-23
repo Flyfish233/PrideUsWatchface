@@ -6,7 +6,8 @@
         android:name="android.hardware.type.watch"
         android:required="true" />
 
-    <application
+    <application        
+        android:hasCode="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/watch_face_name"
         tools:ignore="WearStandaloneAppFlag">
